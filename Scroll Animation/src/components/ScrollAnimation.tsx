@@ -9,14 +9,14 @@ const ScrollAnimation = () => {
   const scale1 = useTransform(scrollYProgress, [0, 0.1], [0.8, 1]);
 
   // Animation for the second section
-  const y2 = useTransform(scrollYProgress, [0.2, 0.3], [100, 0]);
-  const opacity2 = useTransform(scrollYProgress, [0.2, 0.3], [0, 1]);
-  const scale2 = useTransform(scrollYProgress, [0.2, 0.3], [0.8, 1]);
+  const y2 = useTransform(scrollYProgress, [0.3, 0.4], [100, 0]);
+  const opacity2 = useTransform(scrollYProgress, [0.3, 0.4], [0, 1]);
+  const scale2 = useTransform(scrollYProgress, [0.3, 0.4], [0.8, 1]);
 
   // Animation for the third section
-  const y3 = useTransform(scrollYProgress, [0.4, 0.5], [100, 0]);
-  const opacity3 = useTransform(scrollYProgress, [0.4, 0.5], [0, 1]);
-  const scale3 = useTransform(scrollYProgress, [0.4, 0.5], [0.8, 1]);
+  const y3 = useTransform(scrollYProgress, [0.6, 0.7], [100, 0]);
+  const opacity3 = useTransform(scrollYProgress, [0.6, 0.7], [0, 1]);
+  const scale3 = useTransform(scrollYProgress, [0.6, 0.7], [0.8, 1]);
 
   return (
     <div className="overflow-hidden">
